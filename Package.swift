@@ -21,7 +21,7 @@ let package = Package(
             dependencies: ["OpenWrapSDK"]),
         .binaryTarget(
                     name: "MySDK",
-                    path: "./path/to/YourFramework.xcframework"
+                    path: "./OpenWrapSDK.xcframework"
                 )
     ]
 )

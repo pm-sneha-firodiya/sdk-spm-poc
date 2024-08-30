@@ -19,6 +19,6 @@ let package = Package(
         .testTarget(
             name: "sdk-spm-pocTests",
             dependencies: ["sdk-spm-poc"]),
-        .binaryTarget(name: "OpenWrapSDK", path: "./OpenWrapSDK.xcframework")
+        .binaryTarget(name: "OpenWrapSDK", path: "OpenWrapSDK.xcframework")
     ]
 )

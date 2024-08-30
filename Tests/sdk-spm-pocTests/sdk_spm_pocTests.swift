@@ -1,7 +1,7 @@
 import XCTest
-@testable import OpenWrapSDK
+@testable import sdk_spm_poc
 
-final class OpenWrapSDKTests: XCTestCase {
+final class sdk_spm_pocTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
